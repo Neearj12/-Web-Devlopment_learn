@@ -1,0 +1,148 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neeraj fitness</title>
+</head>
+<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Baloo Bhai'>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*css reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/img.jpg');
+        
+
+
+    }
+
+    .left {
+        display: inline-block;
+        border: 5px solid red;
+        left: 35px;
+        top: 20px;
+
+    }
+
+    .mid {
+        border: 2px solid green;
+        display: inline-block;
+        
+        border-left-width: 1200px;
+        margin: 50px auto;
+        top: 25px;
+    }
+
+    .right {
+        position: absolute;
+        padding: 50px 150px;
+        width: 110px;
+        right: 35px;
+        top: 25px;
+        display: inline-block;
+        border: 5px solid lawngreen;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 80px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 35px;
+    }
+    .formgroup{
+        font-size: 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .cantainer {
+        border: 5px solid black;
+        padding: 15px 150px;
+        border-left-width: 150px;
+        margin: 150px;
+        padding: 5px 500px;
+        font-size: 35px;
+        text-align-last: auto;
+        align-items: center;
+    }
+
+    .left img {
+        width: 180px;
+
+        .left div {
+            text-align: center;
+            line height: 12px;
+        }
+
+        .button {
+            width: 50px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai', cursive;
+
+        }
+
+        .button :hover {
+            background-color: rgb(39, 0, 148);
+        }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo-->
+        <div class="left">
+            <img src="img/img2.jpg" alt="">
+            <div>Harry fitness</div>
+
+        </div>
+
+        <!-- mid box for logo-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+
+            </ul>
+        </div>
+        <!-- right box for logo-->
+
+        <div class="right">
+            <button>Call Us Now</button>
+            <button>Email Us</button>
+        </div>
+    </header>
+    <div class="cantainer"> <h1>join the best Gym of haldmani</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" placeholder="enter your name ">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="enter your name ">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="enter your name ">
+            </div>
+            <button class="btn">Submit</button>
+        </div>
+
+</html>
